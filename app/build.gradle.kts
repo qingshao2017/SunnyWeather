@@ -42,6 +42,27 @@ dependencies {
     implementation(libs.material)
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
+
+    // RecyclerView
+    implementation(libs.androidx.recyclerview)
+
+// Lifecycle 相关
+    implementation(libs.androidx.lifecycle.extensions)
+    implementation(libs.androidx.lifecycle.livedata.ktx)
+
+// SwipeRefreshLayout
+    implementation(libs.androidx.swiperefreshlayout)
+
+// Retrofit 网络
+    implementation(libs.retrofit)
+    implementation(libs.retrofit.converter.gson)
+
+// Kotlin 协程
+    implementation(libs.kotlinx.coroutines.core)
+    implementation(libs.kotlinx.coroutines.android)
+
+    implementation(libs.gson)
+
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
